@@ -12,7 +12,13 @@
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		ABA48A650680BB600089EB4F /* Multifidus_AtrophyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA48A640680BB600089EB4F /* Multifidus_AtrophyFilter.h */; };
 		ABA48A670680BB690089EB4F /* Multifidus_AtrophyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA48A660680BB690089EB4F /* Multifidus_AtrophyFilter.m */; };
-		B3A298FE277FB9C2000D5123 /* Horos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A298FD277FB9C2000D5123 /* Horos.framework */; };
+		B311C9182793ACA40081E712 /* Horos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311C9172793ACA40081E712 /* Horos.framework */; };
+		B385702E2792163F00C8B1B4 /* SettingsDialog_Multifidus_Atrophy.xib in Resources */ = {isa = PBXBuildFile; fileRef = B385702D2792163F00C8B1B4 /* SettingsDialog_Multifidus_Atrophy.xib */; };
+		B38570312792215E00C8B1B4 /* plugin_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = B385702F2792215E00C8B1B4 /* plugin_helper.h */; };
+		B38570322792215E00C8B1B4 /* plugin_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = B38570302792215E00C8B1B4 /* plugin_helper.m */; };
+		B385703A27922A6900C8B1B4 /* DCMAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B385703727922A6900C8B1B4 /* DCMAttribute.h */; };
+		B385703B27922A6900C8B1B4 /* DCMAttributeTag.h in Headers */ = {isa = PBXBuildFile; fileRef = B385703827922A6900C8B1B4 /* DCMAttributeTag.h */; };
+		B385703C27922A6900C8B1B4 /* DCMObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B385703927922A6900C8B1B4 /* DCMObject.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +31,13 @@
 		AB5D36050680E57E00F4007A /* Multifidus_Atrophy.osirixplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Multifidus_Atrophy.osirixplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA48A640680BB600089EB4F /* Multifidus_AtrophyFilter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Multifidus_AtrophyFilter.h; sourceTree = "<group>"; };
 		ABA48A660680BB690089EB4F /* Multifidus_AtrophyFilter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Multifidus_AtrophyFilter.m; sourceTree = "<group>"; };
-		B3A298FD277FB9C2000D5123 /* Horos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Horos.framework; sourceTree = "<group>"; };
+		B311C9172793ACA40081E712 /* Horos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Horos.framework; path = ../../../../../Applications/Horos.app/Contents/Frameworks/Horos.framework; sourceTree = "<group>"; };
+		B385702D2792163F00C8B1B4 /* SettingsDialog_Multifidus_Atrophy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsDialog_Multifidus_Atrophy.xib; sourceTree = "<group>"; };
+		B385702F2792215E00C8B1B4 /* plugin_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugin_helper.h; sourceTree = "<group>"; };
+		B38570302792215E00C8B1B4 /* plugin_helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plugin_helper.m; sourceTree = "<group>"; };
+		B385703727922A6900C8B1B4 /* DCMAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMAttribute.h; sourceTree = "<group>"; };
+		B385703827922A6900C8B1B4 /* DCMAttributeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMAttributeTag.h; sourceTree = "<group>"; };
+		B385703927922A6900C8B1B4 /* DCMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A298FE277FB9C2000D5123 /* Horos.framework in Frameworks */,
+				B311C9182793ACA40081E712 /* Horos.framework in Frameworks */,
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +68,7 @@
 		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				B3A298FD277FB9C2000D5123 /* Horos.framework */,
+				B311C9172793ACA40081E712 /* Horos.framework */,
 				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
 				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
 			);
@@ -68,6 +80,7 @@
 			children = (
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				B385702D2792163F00C8B1B4 /* SettingsDialog_Multifidus_Atrophy.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -116,8 +129,13 @@
 		AB2C26750677B0C400A08910 /* Multifidus_AtrophyFilter */ = {
 			isa = PBXGroup;
 			children = (
+				B385703727922A6900C8B1B4 /* DCMAttribute.h */,
+				B385703827922A6900C8B1B4 /* DCMAttributeTag.h */,
+				B385703927922A6900C8B1B4 /* DCMObject.h */,
 				ABA48A640680BB600089EB4F /* Multifidus_AtrophyFilter.h */,
 				ABA48A660680BB690089EB4F /* Multifidus_AtrophyFilter.m */,
+				B385702F2792215E00C8B1B4 /* plugin_helper.h */,
+				B38570302792215E00C8B1B4 /* plugin_helper.m */,
 			);
 			name = Multifidus_AtrophyFilter;
 			sourceTree = "<group>";
@@ -129,8 +147,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B385703A27922A6900C8B1B4 /* DCMAttribute.h in Headers */,
 				8D5B49AE048680CD000E48DA /* Multifidus_Atrophy_Prefix.pch in Headers */,
+				B385703C27922A6900C8B1B4 /* DCMObject.h in Headers */,
+				B385703B27922A6900C8B1B4 /* DCMAttributeTag.h in Headers */,
 				ABA48A650680BB600089EB4F /* Multifidus_AtrophyFilter.h in Headers */,
+				B38570312792215E00C8B1B4 /* plugin_helper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B385702E2792163F00C8B1B4 /* SettingsDialog_Multifidus_Atrophy.xib in Resources */,
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38570322792215E00C8B1B4 /* plugin_helper.m in Sources */,
 				ABA48A670680BB690089EB4F /* Multifidus_AtrophyFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
